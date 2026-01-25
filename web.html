@@ -1,0 +1,217 @@
+<meta name='viewport' content='width=device-width, initial-scale=1'/><!DOCTYPE html>
+<html lang="mr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Royal Maharashtra News</title>
+
+  <meta name="description" content="Royal Maharashtra News | सत्य, निर्भीड, निष्पक्ष डिजिटल न्यूज चॅनल – राहिमतपूर, सातारा">
+  <meta name="keywords" content="Royal Maharashtra News, Marathi News, Rahimatpur News, Satara News">
+  <meta name="author" content="Royal Maharashtra News">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <style>
+    :root {
+      --dark:#06162b;
+      --cyan:#00e5ff;
+      --text:#e0f7fa;
+      --card:rgba(255,255,255,0.08);
+    }
+
+    *{margin:0;padding:0;box-sizing:border-box;font-family:Poppins;}
+
+    body{
+      background:linear-gradient(135deg,#06162b,#0b2b46);
+      color:var(--text);
+    }
+
+    marquee{
+      background:var(--cyan);
+      color:#002b36;
+      padding:8px;
+      font-weight:600;
+    }
+
+    header{
+      position:sticky;
+      top:0;
+      background:rgba(6,22,43,0.9);
+      backdrop-filter:blur(10px);
+      z-index:1000;
+    }
+
+    nav{
+      max-width:1200px;
+      margin:auto;
+      padding:15px;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+
+    nav h1{color:var(--cyan);font-size:22px;}
+
+    nav a{
+      color:var(--text);
+      margin-left:20px;
+      text-decoration:none;
+      font-size:14px;
+    }
+
+    .login{
+      background:var(--cyan);
+      color:#002b36;
+      padding:6px 14px;
+      border-radius:20px;
+      font-weight:600;
+    }
+
+    .hero{
+      height:90vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      text-align:center;
+      background:url("https://images.unsplash.com/photo-1581093588401-22d1f35a6d8a") center/cover;
+      position:relative;
+    }
+
+    .hero::after{
+      content:"";
+      position:absolute;
+      inset:0;
+      background:rgba(6,22,43,0.75);
+    }
+
+    .hero div{
+      position:relative;
+      max-width:700px;
+    }
+
+    .hero h2{
+      font-size:38px;
+      margin-bottom:10px;
+    }
+
+    .hero span{color:var(--cyan);}
+
+    section{
+      max-width:1200px;
+      margin:auto;
+      padding:80px 20px;
+    }
+
+    h3{
+      text-align:center;
+      color:var(--cyan);
+      margin-bottom:40px;
+      font-size:28px;
+    }
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:25px;
+    }
+
+    .card{
+      background:var(--card);
+      padding:25px;
+      border-radius:15px;
+      text-align:center;
+      transition:.3s;
+    }
+
+    .card:hover{
+      transform:translateY(-6px);
+      box-shadow:0 15px 30px rgba(0,0,0,.4);
+    }
+
+    iframe{border-radius:15px;}
+
+    footer{
+      text-align:center;
+      padding:20px;
+      font-size:13px;
+      opacity:.7;
+    }
+
+    .whatsapp{
+      position:fixed;
+      bottom:20px;
+      right:20px;
+      background:#25D366;
+      color:#fff;
+      padding:14px 18px;
+      border-radius:50px;
+      font-weight:600;
+      text-decoration:none;
+    }
+  </style>
+</head>
+
+<body>
+
+<marquee>🔴 Breaking News | Royal Maharashtra News – सत्य • निर्भीड • निष्पक्ष</marquee>
+
+<header>
+  <nav>
+    <h1>Royal Maharashtra News</h1>
+    <div>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#youtube">YouTube</a>
+      <a href="#contact">Contact</a>
+      <a href="#" class="login">Login</a>
+    </div>
+  </nav>
+</header>
+
+<section class="hero">
+  <div>
+    <h2>भविष्यासाठी तयार <span>डिजिटल न्यूज</span></h2>
+    <p>रॉयल महाराष्ट्र न्यूज – राहिमतपूर, सातारा</p>
+  </div>
+</section>
+
+<section id="about">
+  <h3>About Us</h3>
+  <p style="text-align:center;">
+    Royal Maharashtra News हे राहिमतपूर, तालुका कोरेगाव, जिल्हा सातारा येथील आधुनिक डिजिटल न्यूज चॅनल आहे.
+  </p>
+</section>
+
+<section id="services">
+  <h3>Our Services</h3>
+  <div class="grid">
+    <div class="card"><i class="fa fa-newspaper"></i><h4>News & Interviews</h4></div>
+    <div class="card"><i class="fa fa-users"></i><h4>Social Problems</h4></div>
+    <div class="card"><i class="fa fa-bullhorn"></i><h4>Advertising</h4></div>
+  </div>
+</section>
+
+<section id="youtube">
+  <h3>YouTube Channel</h3>
+  <div style="display:flex;justify-content:center;">
+    <iframe width="360" height="215"
+      src="https://www.youtube.com/embed?listType=user&list=RoyalMaharashtraNews"
+      allowfullscreen></iframe>
+  </div>
+</section>
+
+<section id="contact">
+  <h3>Contact</h3>
+  <p style="text-align:center;">Rahimatpur, Tal Koregaon, Dist Satara, Maharashtra</p>
+  <p style="text-align:center;">Working Hours: 9 AM – 9 PM</p>
+</section>
+
+<a class="whatsapp" href="https://wa.me/919999999999">WhatsApp News</a>
+
+<footer>
+  © 2026 Royal Maharashtra News
+</footer>
+
+</body>
+</html>
